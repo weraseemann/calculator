@@ -3,8 +3,13 @@ function appendOperation(operation) {
 }
 function calculateResult() {
     let container = document.getElementById('resultArea');
-    let result = eval(container.innerHTML);
-    container.innerHTML = result;
+     
+    try {
+        let result = eval(container.innerHTML);
+        container.innerHTML = result;
+    } catch (error) {
+        container.innerHTML = 'ERROR';
+    }
 }
 function deleteLast() {
     let container = document.getElementById('resultArea');
@@ -15,6 +20,5 @@ function deleteLast() {
     }
 }
 function deleteAll() {
-    let container = document.getElementById('resultArea');
-    container.innerHTML = '';
+    document.getElementById('resultArea').innerHTML = '';
 }
