@@ -19,6 +19,7 @@ As a user, I want an "AC" (All Clear) button to quickly clear all inputs.
 As a user, I want the calculator to display error messages (e.g., "ERROR") when I perform invalid calculations.
 As a user, I want to correct my input by deleting a single character (backspace function).
 As a user, I want the calculator to be responsive so that it works well on both mobile devices and computers.
+As a user, I want to use keyboard shortcuts to type faster.
 
 ### 4. Design and Display:
 As a user, I want the result to be bold and easy to read so that I can clearly see it.
