@@ -38,5 +38,5 @@ document.addEventListener('keydown', function(event) {
 // Backspace Function
 function backspace() {
     let container = document.getElementById('resultArea');
-    container.value = container.value.slice(0, -1);
+    container.innerHTML = container.innerHTML.slice(0, -1);
 }
