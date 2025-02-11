@@ -1,7 +1,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    font-weight: bold; 
+    font-weight: bold;
+    font-size: 24px 
 }
 table {
     width: 100%;
@@ -12,7 +13,7 @@ table {
 td {
     width: 25%;
     text-align: center;
-    font-size: 24px;
+    font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(13, 154, 44);
 }
@@ -25,7 +26,7 @@ td:hover{
     height: 30vh;
     background-color: rgb(30, 226, 46);
     color: rgb(44, 128, 65);
-    font-size: 48px;
+    font-size: 2em;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
