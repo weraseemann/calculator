@@ -9,30 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script>
-        function appendOperation(operation) {
-            document.getElementById('resultArea').innerHTML += operation;
-        }
-        function calculateresult() {
-            let container = document.getElementById('resultArea');
-            let result = eval(container.innerHTML);
-            container.innerHTML = result;
-        }
-        function deleteLast() {
-            let container = document.getElementById('resultArea');
-            if (container.innerHTML.endsWith(' ')) {
-            container.innerHTML = container.innerHTML.slice(0, -3);
-            } else {
-                container.innerHTML = container.innerHTML.slice(0, -1);
-            }
-        }
-        function deleteAll() {
-            let container = document.getElementById('resultArea');
-            container.innerHTML = '';
-        }
-        </script>
 </head>
-
 <body>
     <div id="resultArea"></div>
         <table>
@@ -72,6 +49,7 @@
             </tr>
 
         </table>
+        <script src="scripts.js"></script>
 </body>
 
 </html>
