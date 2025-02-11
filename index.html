@@ -26,6 +26,10 @@
                 container.innerHTML = container.innerHTML.slice(0, -1);
             }
         }
+        function deleteAll() {
+            let container = document.getElementById('resultArea');
+            container.innerHTML = '';
+        }
         </script>
 </head>
 
@@ -33,13 +37,11 @@
     <div id="resultArea"></div>
         <table>
             <tr>
-                <td></td>
+                <td onclick="deleteAll()">AC</td>
                 <td></td>
                 <td></td>
                 <td onclick="deleteLast()">DEL</td>
             </tr>
-
-
             <tr>
                 <td onclick="appendOperation(7)">7</td>
                 <td onclick="appendOperation(8)">8</td>
