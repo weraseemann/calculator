@@ -22,3 +22,21 @@ function deleteLast() {
 function deleteAll() {
     document.getElementById('resultArea').innerHTML = '';
 }
+
+document.addEventListener('keydown', function(event) {
+    const key = event.key;
+    const allowedKeys = '0123456789+-*/().';
+
+    if (allowedKeys.includes(key)) {
+        appendOperation(key);
+    } else if (key === 'Enter') {
+        calculateResult();
+    } else if (key === 'Backspace') {
+        backspace();
+    }
+});
+// Backspace Function
+function backspace() {
+    let container = document.getElementById('resultArea');
+    container.value = container.value.slice(0, -1);
+}
