@@ -7,6 +7,9 @@ function calculateResult() {
     try {
         let result = eval(container.innerHTML);
         container.innerHTML = result;
+
+        // Auto-scroll to the right after calculation
+        container.scrollRight = container.scrollWidth;
     } catch (error) {
         container.innerHTML = 'ERROR';
     }

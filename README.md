@@ -20,6 +20,7 @@ calculator for simple functionality
 - As a user, I want to correct my input by deleting a single character (backspace function).
 - As a user, I want the calculator to be responsive so that it works well on both mobile devices and computers.
 - As a user, I want to use keyboard shortcuts to type faster.
+- As a user, I want to be able to view the entire mathematical expression, including the beginning of long numbers, so that I can easily review and verify my input without losing any part of it.
 
 ### 4. Design and Display:
 - As a user, I want the result to be bold and easy to read so that I can clearly see it.

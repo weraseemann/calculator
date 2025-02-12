@@ -28,10 +28,12 @@ td:hover{
     color: rgb(44, 128, 65);
     font-size: 2em;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: flex-end;
     padding: 24px;
     box-sizing: border-box;
+    overflow-x: auto;         /* Enable horizontal scrolling */
+    white-space: nowrap;      /* Prevent text from wrapping to the next line */
 }
 
 .highlight {
