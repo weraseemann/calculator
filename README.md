@@ -21,6 +21,9 @@ calculator for simple functionality
 - As a user, I want the calculator to be responsive so that it works well on both mobile devices and computers.
 - As a user, I want to use keyboard shortcuts to type faster.
 - As a user, I want to be able to view the entire mathematical expression, including the beginning of long numbers, so that I can easily review and verify my input without losing any part of it.
+- As a user,
+I want to use a single button to insert both opening and closing brackets,
+so that I can add parentheses more easily without using two separate buttons.
 
 ### 4. Design and Display:
 - As a user, I want the result to be bold and easy to read so that I can clearly see it.

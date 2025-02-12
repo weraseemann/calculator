@@ -43,3 +43,19 @@ function backspace() {
     let container = document.getElementById('resultArea');
     container.innerHTML = container.innerHTML.slice(0, -1);
 }
+let isOpeningBracket = true; // Track the current bracket state
+
+function toggleBracket() {
+    const container = document.getElementById('resultArea');
+    const bracketButton = document.getElementById('bracketButton');
+
+    if (isOpeningBracket) {
+        container.innerHTML += '(';           // Add opening bracket
+        bracketButton.textContent = ')';  // Toggle button label to closing bracket
+    } else {
+        container.innerHTML += ')';           // Add closing bracket
+        bracketButton.textContent = '(';  // Toggle button label back to opening bracket
+    }
+
+    isOpeningBracket = !isOpeningBracket; // Toggle the state
+}
