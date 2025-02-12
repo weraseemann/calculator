@@ -3,13 +3,25 @@ function appendOperation(operation) {
 }
 function calculateResult() {
     let container = document.getElementById('resultArea');
-     
+
     try {
-        let result = eval(container.innerHTML);
+        let expression = container.innerHTML;  // or container.value if using <input>
+
+        // Remove extra spaces
+        expression = expression.replace(/\s+/g, '');
+
+        // Convert percentages to decimals
+        expression = expression.replace(/(\d+(\.\d+)?)%/g, (match, number) => {
+            console.log(`Match: ${match}, Number: ${number}`);  // Debugging
+            return parseFloat(number) / 100;
+        });
+
+        let result = eval(expression);
         container.innerHTML = result;
 
-        // Auto-scroll to the right after calculation
-        container.scrollRight = container.scrollWidth;
+        // Auto-scroll
+        container.scrollLeft = container.scrollWidth;
+
     } catch (error) {
         container.innerHTML = 'ERROR';
     }

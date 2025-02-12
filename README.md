@@ -9,6 +9,7 @@ calculator for simple functionality
 - As a user, I want to be able to enter numbers to perform simple calculations.
 - As a user, I want to use basic arithmetic operations (addition, subtraction, multiplication, division) to carry out mathematical operations.
 - As a user, I want to see the result of a calculation by pressing the "=" button to get the final value.
+- As a user, I want to be able to use the % button in calculations, so that I can easily calculate percentages, like discounts or proportions.
 
 ### 2. Advanced Mathematical Functions:
 - As a user, I want to use parentheses ( ) to perform complex calculations with proper order of operations.
