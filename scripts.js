@@ -59,15 +59,24 @@ let isOpeningBracket = true; // Track the current bracket state
 
 function toggleBracket() {
     const container = document.getElementById('resultArea');
-    const bracketButton = document.getElementById('bracketButton');
+    let expression = container.innerHTML;
 
-    if (isOpeningBracket) {
-        container.innerHTML += '(';           // Add opening bracket
-        bracketButton.textContent = ')';  // Toggle button label to closing bracket
+    // Count existing brackets
+    let openBrackets = (expression.match(/\(/g) || []).length;
+    let closeBrackets = (expression.match(/\)/g) || []).length;
+
+    // Get last character in the expression
+    let lastChar = expression.trim().slice(-1);
+
+    // Determine whether to add ( or )
+    if (expression === "" || /[+\-*/%(]$/.test(lastChar)) {
+        // If empty or last char is an operator, add an opening bracket (
+        container.innerHTML += '(';
+    } else if (openBrackets > closeBrackets) {
+        // If more ( than ), add a closing bracket )
+        container.innerHTML += ')';
     } else {
-        container.innerHTML += ')';           // Add closing bracket
-        bracketButton.textContent = '(';  // Toggle button label back to opening bracket
+        // Default to adding (
+        container.innerHTML += '(';
     }
-
-    isOpeningBracket = !isOpeningBracket; // Toggle the state
 }
