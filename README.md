@@ -1,6 +1,6 @@
 in development mode ...
 
-#WORK IN PROGRESS....the project is still in development mode
+# WORK IN PROGRESS....the project is still in development mode
 
 # Pet-PROJECT: Calculator
 calculator for simple functionality 
