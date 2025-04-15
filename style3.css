@@ -1,0 +1,103 @@
+/* Elegant & Feminine Calculator Theme */
+body {
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(135deg, #f9e5e5, #f8f1e9); /* Soft vintage pastel gradient */
+    color: #5c3a31;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Calculator Container */
+.calculator {
+    width: 90%;
+    max-width: 400px;
+    background: rgba(255, 250, 240, 0.95); /* Soft creamy white */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    border: 5px solid #d8a48f; /* Champagne gold frame */
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+/* Result Display */
+#resultArea {
+    height: 80px;
+    background: #fffaf2; /* Warm off-white */
+    color: #a66150;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: right;
+    padding: 15px;
+    box-shadow: inset 0px 0px 10px rgba(166, 97, 80, 0.3);
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* Button Grid */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Fancy Buttons */
+td {
+    width: 25%;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(135deg, #f8d3c6, #f7b2a0);
+    color: #5c3a31;
+    border-radius: 12px;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    user-select: none;
+    font-weight: bold;
+}
+
+/* Button Hover Effect */
+td:hover {
+    background: linear-gradient(135deg, #f7b2a0, #f26e64);
+    color: #fff;
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(255, 90, 90, 0.3);
+}
+
+/* Special Buttons */
+.highlight {
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    color: white;
+    font-weight: bold;
+}
+
+#result {
+    background: linear-gradient(135deg, #e3c567, #cda349);
+    color: #5c3a31;
+    font-weight: bold;
+}
+
+#result:hover {
+    background: linear-gradient(135deg, #cda349, #e3c567);
+    color: white;
+}
+
+/* Mobile Friendly */
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+    td {
+        font-size: 1em;
+        padding: 12px;
+    }
+    #resultArea {
+        font-size: 1.5em;
+    }
+}

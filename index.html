@@ -8,16 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
+    <div class="calculator">
     <div id="resultArea"></div>
         <table>
             <tr>
-                <td onclick="deleteAll()">AC</td>
-                <td onclick="toggleBracket()" id="bracketButton"> ( </td>
+                <td onclick="deleteAll()" class="highlight">AC</td>
+                <td onclick="toggleBracket()" id="bracketButton"> ( ) </td>
                 <td onclick="appendOperation(' % ')"> % </td>
-                <td onclick="deleteLast()">DEL</td>
+                <td onclick="appendOperation(' - ')" class="highlight">-</td>
+                
             </tr>
             <tr>
                 <td onclick="appendOperation(7)">7</td>
@@ -40,13 +42,14 @@
             </tr>
 
             <tr>
-                <td onclick="calculateResult()" id="result">=</td>
+                <td onclick="deleteLast()">DEL</td>
                 <td onclick="appendOperation(0)">0</td>
                 <td onclick="appendOperation('.')">,</td>
-                <td onclick="appendOperation(' - ')" class="highlight">-</td>
+                <td onclick="calculateResult()" id="result">=</td>
             </tr>
         </table>
         <script src="scripts.js"></script>
+    </div>
 </body>
 
 </html>
