@@ -36,8 +36,6 @@ so that I can add parentheses more easily without using two separate buttons.
 - As a user, I want the calculator to avoid security risks so that no unexpected actions are triggered (e.g., through insecure code like eval).
 - As a user, I want the calculator to be stable even when I perform many complex calculations in a row.
 
-
-
 ## Style: Desperate Housewives
 The Desperate Housewives aesthetic is a mix of classy, vintage, and luxurious suburban housewife vibes—think elegant, feminine, pastel colors, floral patterns, and a hint of 1950s glamour.
 
