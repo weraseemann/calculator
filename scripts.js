@@ -5,7 +5,7 @@ function calculateResult() {
     let container = document.getElementById('resultArea');
 
     try {
-        let expression = container.innerHTML;  // or container.value if using <input>
+        let expression = container.innerHTML;
 
         // Remove extra spaces
         expression = expression.replace(/\s+/g, '');
