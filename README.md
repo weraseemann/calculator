@@ -53,3 +53,12 @@ Why This Screams Desperate Housewives:
 - Glossy hover effects: Buttons shimmer when hovered, adding an elegant transition.
 
 
+# 💖 Support My Work
+This calculator app is a small example of my passion for creative, user-friendly tools built with web technologies. If you enjoy using the app or appreciate the ideas behind it, you can support my work and help me continue building more useful and inspiring projects.
+
+If you'd like to show appreciation, donations are welcome via PayPal:
+👉 Donate directly via PayPal: jaschunin@gmail.com
+
+Thank you for your support and appreciation — every little bit means a lot!
+
+
