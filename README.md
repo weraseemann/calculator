@@ -53,12 +53,34 @@ Why This Screams Desperate Housewives:
 - Glossy hover effects: Buttons shimmer when hovered, adding an elegant transition.
 
 
-# 💖 Support My Work
-This calculator app is a small example of my passion for creative, user-friendly tools built with web technologies. If you enjoy using the app or appreciate the ideas behind it, you can support my work and help me continue building more useful and inspiring projects.
+## 💖 Support My Work
 
-If you'd like to show appreciation, donations are welcome via PayPal:
+If you enjoy this project or find value in my creative ideas, consider supporting my work.  
+Your contribution helps me continue developing useful and inspiring tools like this calculator app.
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/jaschunin)
+
+---
+
+### ☕ Donate via PayPal
+
+<table>
+  <tr>
+    <td><img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="PayPal Logo" width="100"></td>
+    <td><strong>PayPal Email:</strong> <a href="mailto:jaschunin@gmail.com">jaschunin@gmail.com</a><br>
+        <strong>PayPal.me Link:</strong> <a href="https://www.paypal.me/jaschunin">paypal.me/jaschunin</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📱 Scan to Donate
+
+<img src="https://www.paypal.com/qr/api/qr?generate=on&qrType=PPME&email=jaschunin@gmail.com" alt="Donate via PayPal QR Code" width="200"/>
+
+---
+
 👉 Donate directly via PayPal: jaschunin@gmail.com
 
 Thank you for your support and appreciation — every little bit means a lot!
-
-
