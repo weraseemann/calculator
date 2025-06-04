@@ -41,6 +41,7 @@ body {
 /* Button Grid */
 table {
     width: 100%;
+    height: 70vh;
     border-collapse: collapse;
     margin-top: 15px;
 }
