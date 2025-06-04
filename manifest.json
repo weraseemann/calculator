@@ -3,9 +3,9 @@
    
     "icons":[
         {
-        "src": "40.png",
-        "sizes": "40x40",
-        "type": "image/png",
+        "src": "favicon.ico",
+        "sizes": "48x48",
+        "type": "image/x-icon",
         "purpose": "maskable"
         },
         {
