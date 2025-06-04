@@ -100,9 +100,10 @@ td:hover {
 /* Mobile Friendly */
 @media (max-width: 600px) {
     body {
-        margin-right: 3;
-        margin-left: 3;
         font-size: 18px;
+    }
+    .calculator {
+        margin: 3;
     }
     td {
         font-size: 1em;
