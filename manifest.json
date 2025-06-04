@@ -3,6 +3,24 @@
    
     "icons":[
         {
+        "src": "40.png",
+        "sizes": "40x40",
+        "type": "image/png",
+        "purpose": "maskable"
+        },
+        {
+        "src": "144.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "any"
+         },
+        {
+        "src": "192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+        },
+        {
         "purpose":"mascable",
         "sizes":"512x512",
         "src":"icon512_rounded.png",
