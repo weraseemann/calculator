@@ -100,6 +100,8 @@ td:hover {
 /* Mobile Friendly */
 @media (max-width: 600px) {
     body {
+        margin-right: 3;
+        margin-left: 3;
         font-size: 18px;
     }
     td {
