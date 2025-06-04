@@ -12,7 +12,7 @@ body {
 
 /* Calculator Container */
 .calculator {
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     background: #fffaf0f2; /* Soft creamy white */
     border-radius: 15px;
@@ -25,10 +25,10 @@ body {
 
 /* Result Display */
 #resultArea {
-    height: 80px;
+    height: 120px;
     background: #fffaf2; /* Warm off-white */
     color: #a66150;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     border-radius: 12px;
     text-align: right;
@@ -40,8 +40,8 @@ body {
 
 /* Button Grid */
 table {
-    width: 90%;
-    height: 60vh;
+    width: 100%;
+    height: 60%;
     border-collapse: collapse;
     margin-top: 15px;
 }
@@ -50,7 +50,7 @@ table {
 td {
     width: 25%;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Playfair Display', serif;
     background: linear-gradient(135deg, #f8d3c6, #f7b2a0);
     color: #5c3a31;
