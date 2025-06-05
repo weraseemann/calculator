@@ -100,7 +100,7 @@ td:hover {
 /* Mobile Friendly */
 @media (max-width: 600px) {
     body {
-        font-size: 18px;
+        font-size: 24px;
     }
     .calculator {
         margin: 10px;
