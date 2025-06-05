@@ -13,7 +13,7 @@ body {
 
 /* Calculator Container */
 .calculator {
-    width: 100%;
+    width: 96%;
     max-width: 400px;
     background: #fffaf0f2; /* Soft creamy white */
     border-radius: 15px;
